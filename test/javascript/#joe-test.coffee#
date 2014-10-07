@@ -1,0 +1,7 @@
+require "coffee-script/register"
+assert = require "assert"
+
+describe "Joe", ->
+  describe "#name()", ->
+    it "returns Joe's name", ->
+      assert.equal "Joe", Joe.name
